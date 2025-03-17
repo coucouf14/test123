@@ -2,7 +2,7 @@ name: Run Python Script
 on: [push, workflow_dispatch] 
 jobs: 
   run-script:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
